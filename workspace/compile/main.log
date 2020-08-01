@@ -1,0 +1,78 @@
+This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2017.4.27)  1 AUG 2020 19:06
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+pLaTeX2e <2017/04/08u01> (based on LaTeX2e <2017-04-15>)
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/Applications/TeXLive/texlive/2017/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/Applications/TeXLive/texlive/2017/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 9.6222pt on input line 54.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 9.6222pt on input line 54.
+)
+\c@part=\count82
+\c@section=\count83
+\c@subsection=\count84
+\c@subsubsection=\count85
+\c@paragraph=\count86
+\c@subparagraph=\count87
+\c@figure=\count88
+\c@table=\count89
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen118
+)
+(../../hoge.sty
+runsystem(grep '/hoge.sty' main.fls | uniq | sed 's+INPUT++' | sed 's+/hoge.sty
+++' > main.hoge)...executed.
+
+\hogepathfile=\read1
+ (../../styles/huga.tex)
+runsystem(rm main.hoge)...executed.
+
+) (./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 4.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 6.73553pt on input line 4.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 6.73553pt on input line 4.
+ [1
+
+] (./main.aux) ) 
+Here is how much of TeX's memory you used:
+ 220 strings out of 493661
+ 2357 string characters out of 6145512
+ 59034 words of memory out of 5000000
+ 3882 multiletter control sequences out of 15000+600000
+ 6143 words of font info for 32 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 24i,4n,17p,245b,158s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on main.dvi (1 page, 1044 bytes).

@@ -1,0 +1,23 @@
+\def\hogehoge{hoge.sty has been sucessfully loaded.}
+
+%ここからがギミック。
+
+%コンパイル途中のXXXX.flsの中にこのhoge.styのパスが，「INPUT (path)/hoge.sty」の形で含まれるので(path)部分だけ抜き出して取得する。XXXX.hogeに取得した(path)を格納。
+\immediate\write18{grep '/hoge.sty' \jobname.fls | uniq | sed 's+INPUT++' | sed 's+/hoge.sty++' > \jobname.hoge}
+
+%XXXX.hogeを\hogepathfile 番の\read で読めるようにする
+\newread\hogepathfile
+\openin\hogepathfile=\jobname.hoge
+
+%行末に改行が入らないように\endlinechar をいじりつつ，\pathtohogesty に(path)を代入
+\endlinechar=-1
+\read\hogepathfile to \pathtohogesty
+
+%いよいよ，huga.texを読めます。
+\input{\pathtohogesty/styles/huga.tex}
+
+%行末文字を元に戻しておきましょう
+\endlinechar=13
+
+%XXXX.hogeを始末しておきます
+\immediate\write18{rm \jobname.hoge}

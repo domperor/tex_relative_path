@@ -1,0 +1,19 @@
+[File tree]
+readme
+hoge.sty
+styles
+	-huga.sty
+workspace
+	-compile
+		-main.tex
+		-main.aux
+		-main.fls
+		-...
+
+main.texからみてhuga.styは，../../styles/huga.styにあるので，
+hoge.styにも，本当は\input{../../styles/huga.sty}などと書かないといけない。
+しかし，hoge.styには，hoge.styからみた相対パスである\input{./styles/huga.sty}のように書きたい。
+どのようにすれば実現できるか？という問い。これが答え。
+
+推奨は一応，全部TEXMFLOCALに入れること。そうすればこんな煩わしいことしなくて済む。
+今回は，-recorderオプションのお勉強ということで。
